@@ -10,8 +10,9 @@ module.exports = function(input) {
     return '@' + user;
   });
 
-  return (
-    users.join(', ') +
-    ': please review this pull request.\n\n> Powered by [pull-review](https://github.com/imsky/pull-review)'
-  );
+  return;
+  // return (
+  //   users.join(', ') +
+  //   ': please review this pull request.\n\n> Powered by [pull-review](https://github.com/imsky/pull-review)'
+  // );
 };
