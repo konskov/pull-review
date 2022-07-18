@@ -169,7 +169,7 @@ module.exports = function getReviewers(options) {
       config.reviewBlacklist && config.reviewBlacklist.indexOf(reviewer) !== -1;
     var isReviewerExcluded = excludedReviewers[reviewer];
     return (
-      !isReviewerCurrentCommitter &&
+      // !isReviewerCurrentCommitter &&
       !isReviewerUnreachable &&
       !isReviewerBlacklisted &&
       !isReviewerExcluded &&
